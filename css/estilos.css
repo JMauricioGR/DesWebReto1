@@ -1,0 +1,51 @@
+/* #btn-ingresar{
+    display: block;
+    justify-content: center;
+}
+
+#form-registro{
+    box-sizing: border-box;
+    padding: 2rem;
+    height: 70vh; 
+    background-color: aqua;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url();
+
+}
+header{
+    height: 15vh;
+    overflow-x: hidden;
+    background-color: rgb(72, 72, 200);
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    max-height: 15vh;
+    
+}
+footer{
+    height: 15vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2rem;
+}
+nav ul li{
+    margin: .5rem 2rem;
+    display: inline-block;
+    flex-direction: column;    
+    justify-content: space-evenly;
+
+    
+}
+nav ul{
+    display: flex;
+ 
+} */
