@@ -3,7 +3,7 @@ header{
 }
 
 main{
-    height: 80vh;
+    height: 83vh;
     background-image: url("../img/sunset.jpg");
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@ form{
     background-color: rgba(255, 255, 255, .75);
 }
 
-p{
+form > p{
     margin-top: 1rem;
 }
 
@@ -23,4 +23,9 @@ footer{
     bottom: 0; 
     width: 100%; 
     color: #fff;
+    line-height: 0.8rem;
+}
+
+footer > p{
+    margin-top: .5rem;
 }
