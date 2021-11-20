@@ -9,40 +9,69 @@
     <title>Autenticación</title>
 </head>
 <body >
-    <header class="d-flex justify-content-between">
-        <div class="col-1">
-            <img src="" alt="">
-        </div>
-        <nav class="col-6 ">
-            <ul class="container d-flex justify-content-evenly mb-0 ">
-                <li class="p-4"><a href="#">Inicio</a></li>
-                <li class="p-4"><a href="registro.html">Registro</a></li>
-                <li class="p-4"><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="justify-content-end d-flex p-4">
-        
-        <form id="d-inline-flex" class="col-3">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca comparta su correo electrónico con portales o personas desconcidas.</div>
+    <div class="d-flex flex-column">
+        <header style="box-shadow:0 0 10px black;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/GoatLogo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Reto 1 
+                    </a>
+                    <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ps-4 pe-4">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ps-4 pe-4">
+                                <a class="nav-link" href="#">Registro</a>
+                            </li>
+                            <li class="nav-item ps-4 pe-4">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+                <!-- <div class="">
+                <img src="https://cdn.dribbble.com/users/407429/screenshots/16777976/media/0308cbb2c42a6a0f98145ef123e7e6de.png?compress=1&resize=128x90" alt="">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <nav class=" ">
+                <ul class=" ">
+                    <li class=""><a href="#">Inicio</a></li>
+                    <li class=""><a href="registro.html">Registro</a></li>
+                    <li class=""><a href="#">Contacto</a></li>
+                </ul>
+            </nav> -->
+        </header>
+        <main class=" ps-4">
+            <div class="col d-flex p-4 justify-content-lg-end justify-content-sm-center">
+                <form id="" class="col-lg-4 m-2">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nunca comparta su correo electrónico con portales o personas desconcidas.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btn-ingresar">Ingresar</button>
+                    <p id="label-registro">Si aún no registraste tu cuenta puedes hacerlo <a id="link-registro" href="registro.html">aquí</a></p></p>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary" id="btn-ingresar">Ingresar</button>
-            <p id="label-registro">Si aún no registraste tu cuenta puedes hacerlo <a id="link-registro" href="registro.html">aquí</a></p></p>
-        </form>
-        <section id="mensaje"></section>
-        
-        
-    </main>
-    <footer>
-        <p>Proyecto realizado por estudiantes de Misión TIC 2022</p>
-    </footer>
+            
+            <section id="mensaje"></section>
+            
+            
+        </main>
+        <footer class="d-flex p-4 align-items-center justify-content-center bg-dark" style="position: absolute; bottom: 0; width: 100%; color: #fff">
+            <p class="mb-0">Proyecto realizado por estudiantes de Misión TIC 2022</p>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
